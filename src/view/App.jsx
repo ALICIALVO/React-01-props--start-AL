@@ -1,6 +1,7 @@
 // import {Card} from './Card'
 import Card from './Card'
 import TopBar from './TopBar'
+import Vacation from './Vacation'
 
 export default function App() {
 	return (
@@ -10,7 +11,7 @@ export default function App() {
 			</TopBar>
 
 			<h1 className="headline white-text">I am the main Application</h1>
-
+			<Vacation avaliable={true}/>
 			<Card subject="people" action="greet" />
 			{/* <Card subject="friends" action="meet" something="value of sorts" /> */}
 		</div>
